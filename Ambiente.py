@@ -37,7 +37,6 @@ class Ambiente():
             l = l + 1 
         
         return posXY
-
     
     def limparQuadrado(self):
         posXYoriginal = self.getPosicaoAgente()

@@ -9,7 +9,7 @@ class Agente:
 
     qtdQuadradosLimpos = 1
     qtdMovimentos = 1
-    bateria = 15
+    # bateria = 15 descomente essa linha
 
 
     def __init__(self) -> None:

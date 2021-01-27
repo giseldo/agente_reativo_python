@@ -9,6 +9,8 @@ class Agente:
 
     qtdQuadradosLimpos = 1
     qtdMovimentos = 1
+    bateria = 15
+
 
     def __init__(self) -> None:
         pass
@@ -16,6 +18,8 @@ class Agente:
     # acao do agente a partir das percepcoes ele envia uma mensagem para o ambiente para limpar e mover
     def acao(self, ambiente):
         posXY = ambiente.getPosicaoAgente()
+        # if self.qtdMovimentos < self.bateria:
+        # descomente esse if acima e idente tudo tudo que tem abaixo do if neste médodo
         if self.lista_percepcoes[PontosCardeais.NORTE.value] == EstadoQuadrado.SUJO.value: 
             posXY.X = posXY.X-1
             ambiente.limparQuadrado()

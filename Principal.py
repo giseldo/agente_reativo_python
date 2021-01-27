@@ -4,13 +4,11 @@ from Ambiente import Ambiente
 from Agente import Agente
 
 agente = Agente()
-ambiente = Ambiente(2)
+ambiente = Ambiente(5)
 util = Util()
 
-posXY = PosXY()
-posXY.X = 0
-posXY.Y = 0
-ambiente.setPosicaoAgente(posXY)
+ambiente.setPosicaoAgente(PosXY(1, 1))
+
 util.imprimir(ambiente, agente)
 
 while True:

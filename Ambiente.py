@@ -24,14 +24,13 @@ class Ambiente():
     # retorna a posicao do agente
     def getPosicaoAgente(self):
         tamanho = len(self.tabuleiro)
-        posXY = PosXY()
+        posXY = PosXY(0,0) # incializando a variavel
         l = 0
         c = 0
         while l < tamanho:
             while c < tamanho:
                 if self.tabuleiro[l][c] == EstadoQuadrado.AGENTE.value:
-                    posXY.X = l
-                    posXY.Y = c                    
+                    posXY = PosXY(l,c) # posição atual do agente 
                 c = c + 1
             c = 0
             l = l + 1 

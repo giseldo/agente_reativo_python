@@ -12,16 +12,16 @@ python Principal.py
 Saída esperada
 
 ```
-Medida de desempenho 1 : Quantidade de quadrados limpos: 2
-Medida de desempenho 2 : Quantidade de movimentos realizados: 2
+Medida de desempenho: Quantidade de quadrados limpos: 2
+Custo: Quantidade de movimentos realizados: 2
 [[8. 0. 1. 1. 1.]
  [1. 0. 1. 1. 1.]
  [1. 1. 1. 1. 1.]
  [1. 1. 1. 1. 1.]
  [1. 1. 1. 1. 1.]]
  
-Medida de desempenho 1 : Quantidade de quadrados limpos: 3
-Medida de desempenho 2 : Quantidade de movimentos realizados: 3
+Medida de desempenho: Quantidade de quadrados limpos: 3
+Custo: Quantidade de movimentos realizados: 3
 [[0. 0. 1. 1. 1.]
  [8. 0. 1. 1. 1.]
  [1. 1. 1. 1. 1.]

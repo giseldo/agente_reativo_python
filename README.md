@@ -46,6 +46,6 @@ Custo: Quantidade de movimentos realizados: 3
  [1. 1. 1. 1. 1.]]
 ```
 Legenda
-1 = Tem Sujeira no quadrado
-0 = O Quadrado Limpo
-8 = É o agente
+#### 1 = Tem Sujeira no quadrado
+#### 0 = O Quadrado Limpo
+#### 8 = É o agente

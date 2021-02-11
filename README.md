@@ -49,3 +49,6 @@ Legenda
 #### 1 = Tem Sujeira no quadrado
 #### 0 = O Quadrado Limpo
 #### 8 = É o agente
+
+Este arquivo pode ser facilmente executado com a IDE na nuvem https://repl.it
+Basta selecionar a opção Run no Repl.it
